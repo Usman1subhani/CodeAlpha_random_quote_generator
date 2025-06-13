@@ -64,7 +64,8 @@ lib/
 
 ## Screenshots
 
-*(Add your app screenshots here)*
+![Untitled design (2)](https://github.com/user-attachments/assets/c8bb6078-6d9b-41d1-ace9-034c15552815)
+
 
 ## License
 
