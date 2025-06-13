@@ -1,16 +1,75 @@
-# random_quote_generator
+# Random Quote Generator
 
-A new Flutter project.
+A sleek, modern Flutter app that displays random quotes from a live API. Users can fetch new quotes and share them directly to social media or messaging apps. The app features a custom splash screen, animated loaders, and a polished UI.
+
+## Features
+
+- **Splash Screen:** Modern splash with animated loader and app logo.
+- **Quote Screen:** Displays a random quote and author with a stylish card design.
+- **New Quote Button:** Fetches a new random quote from the API.
+- **Share Button:** Share the current quote to any social or messaging app.
+- **Animated Loader:** Custom loader while fetching quotes.
+- **Responsive UI:** Works on all device sizes with modern colors and fonts.
+
+## Screens
+
+1. **Splash Screen (`splash.dart`):**
+   - Shows app logo and name with an animated loader.
+   - Automatically transitions to the main quote screen.
+
+2. **Quote Screen (`quote_screen.dart`):**
+   - Displays the current quote and author.
+   - "New Quote" button fetches a new quote from the API.
+   - "Share" button lets users share the quote.
+
+## API Used
+
+- **ZenQuotes API**
+  - Endpoint: [`https://zenquotes.io/api/random`](https://zenquotes.io/api/random)
+  - Returns a random quote and author on each request.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. **Clone the repository:**
+   ```
+   git clone https://github.com/yourusername/random_quote_generator.git
+   cd random_quote_generator
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+2. **Install dependencies:**
+   ```
+   flutter pub get
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. **Run the app:**
+   ```
+   flutter run
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Dependencies
+
+- [http](https://pub.dev/packages/http)
+- [share_plus](https://pub.dev/packages/share_plus)
+- [google_fonts](https://pub.dev/packages/google_fonts)
+- [flutter_spinkit](https://pub.dev/packages/flutter_spinkit)
+
+## Folder Structure
+
+```
+lib/
+├── main.dart
+├── splash.dart
+└── quote_screen.dart
+```
+
+## Screenshots
+
+*(Add your app screenshots here)*
+
+## License
+
+MIT License
+
+---
+
+Made with ❤️ using Flutter.
